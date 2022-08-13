@@ -25,7 +25,6 @@ USER fridaybot
 # Copy files to distribution image
 COPY fridaybot-cron ./crontab/fridaybot-cron
 COPY fridaybot.py .
-COPY requirements.txt .
 
 EXPOSE 3000
 ENTRYPOINT ["supercronic", "./crontab/fridaybot-cron"]

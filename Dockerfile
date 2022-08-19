@@ -23,8 +23,12 @@ RUN wget "$SUPERCRONIC_URL" \
 USER fridaybot
 
 # Copy files to distribution image
+COPY requirements.txt .
 COPY fridaybot-cron ./crontab/fridaybot-cron
 COPY fridaybot.py .
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 3000
 ENTRYPOINT ["supercronic", "./crontab/fridaybot-cron"]

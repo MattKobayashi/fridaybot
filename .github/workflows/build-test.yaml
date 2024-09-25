@@ -17,8 +17,8 @@ jobs:
           fridaybot
         ]
     uses: ./.github/workflows/create-runner.yaml
-  build-fridaybot:
-    name: Build `fridaybot` container image
+  build-test:
+    name: Build and test container image
     runs-on: self-hosted
     needs: [create-runner]
     permissions:

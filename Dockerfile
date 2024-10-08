@@ -1,4 +1,4 @@
-FROM python:3.12.7-alpine3.20
+FROM python:3.13.0-alpine3.20
 
 # Create and switch to working directory
 WORKDIR /opt/fridaybot

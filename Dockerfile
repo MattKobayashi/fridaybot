@@ -5,7 +5,7 @@ WORKDIR /opt/fridaybot
 
 # Download and install packages
 RUN adduser --system fridaybot \
-    && apk add --no-cache tzdata supercronic
+    && apk --no-cache add supercronic tzdata
 
 # Set user
 USER fridaybot

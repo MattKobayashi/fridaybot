@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/MattKobayashi/fridaybot/compare/v0.1.2...v0.1.3) (2024-10-08)
+
+
+### Bug Fixes
+
+* Install `supercronic` from Alpine repo ([#49](https://github.com/MattKobayashi/fridaybot/issues/49)) ([44f9ab2](https://github.com/MattKobayashi/fridaybot/commit/44f9ab209716008577b366673bb0f89fb8f3d8c2))
+
 ## [0.1.2](https://github.com/MattKobayashi/fridaybot/compare/v0.1.1...v0.1.2) (2024-09-28)
 
 

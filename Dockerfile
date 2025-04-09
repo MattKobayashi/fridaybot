@@ -1,4 +1,4 @@
-FROM python:3.13.3-alpine3.20@sha256:8ef4cefd6d7cc74633d7f30de2ef342e32ec8bfd74bcb29bc0e8cd56ac2593c9
+FROM python:3.13.3-alpine3.20@sha256:cd01a123d91e75ac4fcfef154e746939687823112a055d9a3492c65d6768125c
 
 # Create and switch to working directory
 WORKDIR /opt/fridaybot

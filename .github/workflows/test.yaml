@@ -2,6 +2,9 @@
 env:
   REPO_NAME: mattkobayashi
   IMAGE_NAME: fridaybot
+permissions:
+  contents: read
+
 jobs:
   image:
     name: Image
@@ -12,6 +15,11 @@ jobs:
     steps:
       # Add support for more platforms with QEMU (optional)
       # https://github.com/docker/setup-qemu-action
+      - name: Harden the runner (Audit all outbound calls)
+        uses: step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2 # v2.13.2
+        with:
+          egress-policy: audit
+
       - name: Set up QEMU
         uses: docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130 # v3.7.0
       # Set up Docker Buildx

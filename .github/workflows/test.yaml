@@ -50,9 +50,4 @@ on:
   pull_request:
     branches:
       - main
-    paths:
-      - "**.py"
-      - "**.yaml"
-      - "Dockerfile"
-      - "requirements.txt"
   workflow_dispatch:

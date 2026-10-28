@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/MattKobayashi/fridaybot/compare/v0.1.3...v0.2.0) (2026-10-28)
+
+
+### Features
+
+* add tests ([#135](https://github.com/MattKobayashi/fridaybot/issues/135)) ([ede4272](https://github.com/MattKobayashi/fridaybot/commit/ede42727271672650c5634f84ec7f46de80b89be))
+
 ## [0.1.3](https://github.com/MattKobayashi/fridaybot/compare/v0.1.2...v0.1.3) (2024-10-08)
 
 

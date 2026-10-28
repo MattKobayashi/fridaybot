@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/MattKobayashi/fridaybot/compare/v0.2.0...v0.2.1) (2026-10-28)
+
+
+### Miscellaneous Chores
+
+* release 0.2.1 ([8e01bc8](https://github.com/MattKobayashi/fridaybot/commit/8e01bc87cc5a0de26d0375e71e1acdd1620e6a18))
+
 ## [0.2.0](https://github.com/MattKobayashi/fridaybot/compare/v0.1.3...v0.2.0) (2026-10-28)
 
 
